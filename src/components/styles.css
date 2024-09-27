@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: 'VT323'; 
+    src: url('/public/VT323-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.gif-header {
+    background: url('/public/7her4ja.gif') no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .todo-section {
+    background-color:blanchedalmond; 
+    min-height: calc(100vh - 250px);
+    padding-top: 10px;
+    font-family: 'VT323', sans-serif;
+    font-size: 20px;
+  }
+
+  .todo-container {
+    background-color: transparent;
+    padding: 20px; 
+  }
+  
+  #todoitembox{
+    background-color: aquamarine;
+  }
+
+  p{
+    color: rgb(128, 86, 58);
+    font-size: 30px
+  }
+
+  #complete{
+    background-color: rgba(68, 102, 46, 0.7);
+  } 
+
+  #edit{
+    background-color: rgb(193, 141, 122);
+  }
+
+  #remove{
+    background-color: rgb(142, 82, 82);
+  }
+
+  #savechanges{
+    background-color: rgba(68, 102, 46, 0.9);
+  }
+
+  #addtask{
+    border-radius: 3px;
+    background-color: rgb(128, 86, 58);
+    width: 200px;
+  }
+
+  .header-title {
+    color:rgb(252, 222, 167);
+    font-size: 60px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'VT323', sans-serif;
+  }
